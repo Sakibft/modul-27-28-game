@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html data-theme="light" lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sakib</title>
+  <!-- daisyUi and tailwind -->
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+  <main class="min-h-screen bg-[#010313] bg-[url(images/background.png)] bg-no-repeat bg-center">
+    <!-- home -->
+    <section class=" min-h-screen flex border-2 justify-center items-center ">
+      <div class=" flex flex-col items-center gap-8 ">
+        <h1 class="text-9xl text-white">ALPHABET CLASH</h1>
+      <p class="text-white text-lg">Unleash Your Keyboard Kung Fu : Press “Enter” to Play</p>
+      <button class="btn text-2xl">Play Now</button>
+      </div>
+    </section>
+    <!-- play ground -->
+    <section class=" hidden">
+    <div class="flex flex-col items-center gap-20  pt-60 ">
+      <!-- screen -->
+        <div class="artboard artboard-horizontal phone-6 border-[20px] border-[#010313cc] bg-[#FFFFFFB3] ">
+          <div class="flex justify-center"><p class="bg-[#010313cc] text-white text-cente px-4 py-2 rounded-b-md">Don't watch keyboard  while playing...</p></div>
+          <div class=" flex justify-center pt-20">
+            <h1 class="text-6xl font-bold">y</h1>
+          </div>
+        </div> 
+       <!-- keyboard -->
+       <div>
+        <div class="flex justify-center gap-1 my-1 w-full">
+          <kbd class="kbd">q</kbd>
+          <kbd class="kbd">w</kbd>
+          <kbd class="kbd">e</kbd>
+          <kbd class="kbd">r</kbd>
+          <kbd class="kbd">t</kbd>
+          <kbd class="kbd">y</kbd>
+          <kbd class="kbd">u</kbd>
+          <kbd class="kbd">i</kbd>
+          <kbd class="kbd">o</kbd>
+          <kbd class="kbd">p</kbd>
+        </div> 
+        <div class="flex justify-center gap-1 my-1 w-full">
+          <kbd class="kbd">a</kbd>
+          <kbd class="kbd">s</kbd>
+          <kbd class="kbd">d</kbd>
+          <kbd class="kbd">f</kbd>
+          <kbd class="kbd">g</kbd>
+          <kbd class="kbd">h</kbd>
+          <kbd class="kbd">j</kbd>
+          <kbd class="kbd">k</kbd>
+          <kbd class="kbd">l</kbd>
+        </div> 
+        <div class="flex justify-center gap-1 my-1 w-full">
+          <kbd class="kbd">z</kbd>
+          <kbd class="kbd">x</kbd>
+          <kbd class="kbd">c</kbd>
+          <kbd class="kbd">v</kbd>
+          <kbd class="kbd">b</kbd>
+          <kbd class="kbd">n</kbd>
+          <kbd class="kbd">m</kbd>
+          <kbd class="kbd">/</kbd>
+        </div>
+       </div>
+       <!-- button -->
+       <div class="flex justify-around  w-full ">
+        
+        <button class="btn bg-[#894189] text-white">
+          life
+         <img src="images/hard.svg" alt="">
+         <span>1</span>
+        </button>
+        <button class="btn bg-[#360490] text-white">
+           Score 
+           <img src="images/dolar.svg" alt="">
+           <span>1</span>
+          
+        </button>
+       </div>
+      </div>
+    </div>
+    </section>
+    <!-- result -->
+    <section class="border-2 min-h-screen flex justify-center items-center hidden">
+   <div class="border-2 flex flex-col justify-center items-center gap-8 p-12 
+   bg-[#FFFFFF33] rounded-md">
+    <h1 class="text-4xl text-white">Game Over</h1>
+    <h1 class="text-6xl text-white">Score:
+      <span>14</span>
+    </h1>
+    <button class="btn">Play Again</button>
+    <p class="text-white text-lg">Practice will make you Pro</p>
+   </div>
+    </section>
+  </main>
+  
+</body>
+</html>
